@@ -4,7 +4,7 @@
         <title>G&amp;N's Studio Blog</title>
         <link>https://G-N-s-Studio.github.io/blog</link>
         <description>G&amp;N's Studio Blog</description>
-        <lastBuildDate>Tue, 23 Apr 2024 13:50:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Jun 2024 13:43:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[G&N's Studio Team]]></title>
             <link>https://G-N-s-Studio.github.io/blog/team</link>
             <guid>https://G-N-s-Studio.github.io/blog/team</guid>
-            <pubDate>Tue, 23 Apr 2024 13:50:51 GMT</pubDate>
+            <pubDate>Fri, 07 Jun 2024 13:43:36 GMT</pubDate>
         </item>
     </channel>
 </rss>

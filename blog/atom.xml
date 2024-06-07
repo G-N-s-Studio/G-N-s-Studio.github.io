@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://G-N-s-Studio.github.io/blog</id>
     <title>G&amp;N's Studio Blog</title>
-    <updated>2024-04-23T13:50:51.755Z</updated>
+    <updated>2024-06-07T13:43:36.402Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://G-N-s-Studio.github.io/blog"/>
     <subtitle>G&amp;N's Studio Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[G&N's Studio Team]]></title>
         <id>https://G-N-s-Studio.github.io/blog/team</id>
         <link href="https://G-N-s-Studio.github.io/blog/team"/>
-        <updated>2024-04-23T13:50:51.755Z</updated>
+        <updated>2024-06-07T13:43:36.402Z</updated>
         <author>
             <name>Gusepe</name>
             <uri>https://github.com/Gusepe</uri>
