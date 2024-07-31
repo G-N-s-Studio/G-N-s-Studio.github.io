@@ -2,76 +2,31 @@
 sidebar_position: 3
 ---
 
-# Ipl Loader
+# Superlab Ipl Script
 
-Each warehouse contains multiple "entity sets" allowing you to change the content of each warehouse.
+## cfx_gn_superlab_ipl_script
 
-## Available Themes
+### Introduction
+<br/>
+- You can use the superlab in Sandy Shores or Los Santos, or just use the Laundry for a 100% legal activity.
+- The superlab can also be used only via teleportation (instance). In this case, we provide an IPL under the map.
 
-- Empty warehouse (which you can furnish via script/housing)
-- Simple storage for transport/business management
-- Meth lab
-- Cocaine lab
-- Weed farm
-- Weapons manufacturing plant
+**This script can be deactivated, in which case everything will be loaded by default.**
 
-## Test and preview entity sets
+### Configuring IPL
 
-You can preview all the entity sets from our Showcase server, which provide a custom script to configure them in real time.<br/>
-Here is two ways to join our server:
+To configure the IPLs, go to `cfx_gn_superlab_ipl_script/config.lua`
 
-- [**G&N's Studio Showcase Server**](https://cfx.re/join/lpa6k4)
-- `F8` > `connect 51.75.123.249`
-
-## Entity sets list
-
-Some themes works are split into multiple entity sets, offering more options.
-
-| Entityset Int Small   | Laundry                                       | Superlab |
-| --------------------- | ------------------------------------------------- | ----------- |
-| Los Santos            | ✅                        | ✅          |
-| Sandy Shores          | ✅                              | ✅          |
-| Map Underground       | ❌                  | ✅          |
-
-## Customize warehouses entity sets
-
-### Using included script and config
-
-We already provide a default entity sets configuration in `cfx_gn_warehouses\entityset\config.lua`.<br/>
-Feel free to edit this file, to customize each locations according to your needs.
-
-Here is an example to enable the Meth lab in the location 1. (see [Locations](/docs/Maps/Warehouses/Locations) for more details)
+-> Set the values to `true` or `false` to activate or deactivate the superlabs depending on the locations.
 
 ```lua
--- # Location 1
-{
-    { name = 'wh_b_empty',            enable = false }, -- Empty warehouse with light
-    -- Storage
-    { name = 'wh_b_storage_a_empty',  enable = false }, -- Simple empty storage
-    { name = 'wh_b_storage_a_01',     enable = false }, -- With more props
-    -- Meth laboratory
-    { name = 'wh_b_meth_empty',       enable = true },  -- Meth lab with machine only / not in operation
-    { name = 'wh_b_meth_01',          enable = true },  -- With more props / in operation
-    -- Coke laboratory
-    { name = 'wh_b_coke_empty',       enable = false }, -- Cocaine laboratory / not in operation
-    { name = 'wh_b_coke_01',          enable = false }, -- With more props / in operation
-    -- Storage b & weapon factory
-    { name = 'wh_b_storage_b_empty',  enable = false }, -- Simple empty storage (B)
-    { name = 'wh_b_storage_b_weapon', enable = false }, -- Weapon factory with stotage (B)
-    -- Weed farms
-    { name = 'wh_b_weed_empty',       enable = false }, -- Weed farms / not in operation
-    { name = 'wh_b_weed_stage_1a',    enable = false }, -- Stage 1 weed plant
-    { name = 'wh_b_weed_stage_1b',    enable = false }, -- Stage 2 weed plant
-    { name = 'wh_b_weed_stage_1c',    enable = false }, -- Stage 3 weed plant
-    { name = 'wh_b_weed_stage_1d',    enable = false }, -- Stage 4 weed plant
-    { name = 'wh_b_weed_stage_2a',    enable = false }, -- Weed drying
-    { name = 'wh_b_weed_storage',     enable = false }  -- Weed storage
-}
+LosSantos_lab = true
+SandyShores_lab = true
+UndergroundTP_lab = true
 ```
 
-### Custom framework integration
-
-You can for sure disable our script (`cfx_gn_warehouses\entityset\config.lua` + `cfx_gn_warehouses\entityset\main.lua`) and create your own entity set system.<br/>
-You could use a custom script to let players manage the entity sets based on your own job/gang features, allowing players to manage any warehouse in runtime.
-
-Our team is open to any proposal of this kind of script, so developers, feel free to open a ticket on our [**Discord**](https://discord.com/invite/gnstudio)!
+| Entityset Int Small   | Laundry Only | Superlab with Laundry | Superlab Only |
+| --------------------- | ------------ | --------------------- | --------------|
+| Los Santos            | ✅           | ✅                   |❌             |
+| Sandy Shores          | ✅           | ✅                   |❌             |
+| Map Underground       | ❌           | ❌                   |✅             |
