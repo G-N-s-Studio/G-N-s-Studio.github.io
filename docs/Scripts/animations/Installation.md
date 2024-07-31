@@ -23,3 +23,9 @@ ensure cfx_gn_anims_script
 ## Configuration
 
 Please refer to the README.md file or the [**Usage**](/docs/Scripts/animations/Usage) section.
+
+## Compatible products
+
+- [Warehouse Pack : Business Empire](https://fivem.gn.studio/package/6236114)
+- [Sandy Shores - Laundry Superlab](https://fivem.gn.studio/package/6377528)
+- [Los Santos - Laundry Superlab](https://fivem.gn.studio/package/6389000)
