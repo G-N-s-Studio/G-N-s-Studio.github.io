@@ -4,6 +4,7 @@ sidebar_position: 2
 
 # Usage
 
+## Config.lua
 You can configure animtions in the `config.lua` file.<br/>
 **All config fields are optionals**<br/>
 
@@ -42,3 +43,22 @@ coke_power_mix = { -- bkr_prop_coke_tablepowder (name of the model used for this
     end
 }
 ```
+
+## Use with event
+
+You can use our animations with event, here is an example:
+
+```lua
+TriggerEvent('gn:anim:start', 'coke_press_coke_doll_mould', 7426, PlayerPedId()) -- key, entity, ped
+
+SetTimeout(2000, function()
+    TriggerEvent('gn:anim:stop', PlayerPedId()) -- ped
+end)
+
+
+AddEventHandler('gn:anim:end', function(key, ped, cancelled)
+    print('anim ended')
+end)
+```
+
+Find all the event names [HERE](https://g-n-s-studio.github.io/docs/category/animations-list)
