@@ -10,25 +10,25 @@ __Note :__
 
 ### gr_prop_gr_lathe_01a
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_lathe_machining_1a weapon_lathe_machining_2a weapon_lathe_machining_3a | `gr_prop_gr_lathe_01a` <img src="/img/gr_prop_gr_lathe_01a_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_lathe.gif) |
 
 ### gr_prop_gr_lathe_01b
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_lathe_machining_1b weapon_lathe_machining_2b weapon_lathe_machining_3b | `gr_prop_gr_lathe_01b` <img src="/img/gr_prop_gr_lathe_01b_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_lathe.gif) |
 
 ### gr_prop_gr_lathe_01c
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_lathe_machining_1c weapon_lathe_machining_2c weapon_lathe_machining_3c | `gr_prop_gr_lathe_01c` <img src="/img/gr_prop_gr_lathe_01c_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_lathe.gif) |
 
 ### gr_prop_gr_speeddrill_01a
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_speeddrill_machining_ll_1a weapon_speeddrill_machining_ll_2a *(With_left_crate)* | `gr_prop_gr_speeddrill_01a`  <img src="/img/gr_prop_gr_speeddrill_01a_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
 | weapon_speeddrill_machining_rl_2a *(With_right_crate)* | `gr_prop_gr_speeddrill_01a`  <img src="/img/gr_prop_gr_speeddrill_01a_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
@@ -38,7 +38,7 @@ __Note :__
 
 ### gr_prop_gr_speeddrill_01b
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_speeddrill_machining_rl_2b *(With_right_crate)* | `gr_prop_gr_speeddrill_01b`  <img src="/img/gr_prop_gr_speeddrill_01b_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
 | weapon_speeddrill_machining_ll_1b weapon_speeddrill_machining_ll_2b *(With_left_crate)* | `gr_prop_gr_speeddrill_01b`  <img src="/img/gr_prop_gr_speeddrill_01b_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
@@ -47,7 +47,7 @@ __Note :__
 
 ### gr_prop_gr_speeddrill_01c
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_speeddrill_machining_ll_1c weapon_speeddrill_machining_ll_2c *(With_left_crate)*  | `gr_prop_gr_speeddrill_01c`  <img src="/img/gr_prop_gr_speeddrill_01c_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
 | weapon_speeddrill_machining_rl_1c weapon_speeddrill_machining_rl_2c *(With_right_crate)*  | `gr_prop_gr_speeddrill_01c`  <img src="/img/gr_prop_gr_speeddrill_01c_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_speeddrill.gif) |
@@ -56,7 +56,7 @@ __Note :__
 
 ### gr_prop_gr_vertmill_01a
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_vertmill_machining_ll_1a weapon_vertmill_machining_ll_2a *(With_left_crate)* | `gr_prop_gr_vertmill_01a` <img src="/img/gr_prop_gr_vertmill_01a_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
 | weapon_vertmill_machining_rl_1a weapon_vertmill_machining_rl_2a *(With_right_crate)* | `gr_prop_gr_vertmill_01a` <img src="/img/gr_prop_gr_vertmill_01a_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
@@ -65,7 +65,7 @@ __Note :__
 
 ### gr_prop_gr_vertmill_01b
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_vertmill_machining_ll_1b weapon_vertmill_machining_ll_2b *(With_left_crate)* | `gr_prop_gr_vertmill_01b`  <img src="/img/gr_prop_gr_vertmill_01b_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
 | weapon_vertmill_machining_rl_1b weapon_vertmill_machining_rl_2b *(With_right_crate)* | `gr_prop_gr_vertmill_01b`  <img src="/img/gr_prop_gr_vertmill_01b_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
@@ -74,7 +74,7 @@ __Note :__
 
 ### gr_prop_gr_vertmill_01c
 
-| Name                  | Target Props          | Video example                                                                               |
+| Event Name                  | Target Props          | Video example                                                                               |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------------- |
 | weapon_vertmill_machining_ll_1c weapon_vertmill_machining_ll_2c *(With_left_crate)* | `gr_prop_gr_vertmill_01c`  <img src="/img/gr_prop_gr_vertmill_01c_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
 | weapon_vertmill_machining_rl_1c weapon_vertmill_machining_rl_2c *(With_right_crate)*  | `gr_prop_gr_vertmill_01c`  <img src="/img/gr_prop_gr_vertmill_01c_512.webp" alt="Map with numbers displayed" /> |![An image from the static](https://cdn.gn.studio/doc/animation/gn_anims_scipt_ex_weapon_vertmill.gif) |
