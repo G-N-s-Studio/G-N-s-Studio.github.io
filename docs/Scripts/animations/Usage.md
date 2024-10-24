@@ -48,17 +48,28 @@ coke_power_mix = { -- bkr_prop_coke_tablepowder (name of the model used for this
 
 You can use our animations with event, here is an example:
 
-```lua
-TriggerEvent('gn:anim:start', 'coke_press_coke_doll_mould', 7426, PlayerPedId()) -- key, entity, ped
+You'll find the `modelhash` in [animations list](https://g-n-s-studio.github.io/docs/category/animations-list) -> Target Props
 
+You'll find the `animation name` in [animations list](https://g-n-s-studio.github.io/docs/category/animations-list) -> Event Name
+
+```lua
+local modelHash = GetHashKey('gn_prop_illegal_table_coke1')
+local coords    = GetEntityCoords(PlayerPedId(), false)
+local entity    = GetClosestObjectOfType(coords.x, coords.y, coords.z, 5.0, modelHash, false, false, false)
+
+TriggerEvent('gn:anim:start', 'coke_press_coke_mould', entity, PlayerPedId()) -- key, entity, ped
+
+
+-- For stop animation:
 SetTimeout(2000, function()
     TriggerEvent('gn:anim:stop', PlayerPedId()) -- ped
 end)
 
-
+-- When animation end:
 AddEventHandler('gn:anim:end', function(key, ped, cancelled)
-    print('anim ended')
+    print('anim ended', key, ped, cancelled)
 end)
 ```
+
 
 Find all the event names [HERE](https://g-n-s-studio.github.io/docs/category/animations-list)
