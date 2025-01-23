@@ -3,16 +3,17 @@ sidebar_position: 2
 ---
 # Interior/Mlo Loader
 
-## Explication
-Nous vous proposons et proposerons un grand nombre d'intérieur dans Sandy Shores.
-Cependant vous n'êtes pas obligé de tous les utilisés, c'est pour cette raison que nous vous proposons un IPL Loader qui chargera ou déchargera les intérieurs à votre convenances.
+## Explanation  
+We provide and will continue to provide a wide range of interiors in Sandy Shores.  
+However, you’re not required to use them all, which is why we offer an IPL Loader that allows you to load or unload interiors as you see fit.  
 
-Nous profiterons de ce loader pour optimisé votre jeu au mieu celon votre configuration souhaité aufin de stabilisé au maximum les FPS de vos joueurs.
+This loader is also designed to optimize your game based on your chosen configuration, helping to maximize FPS stability for your players.  
 
-## Comment sans servir
-Dans le fichier `cfx_gn_sandy_ipl_loader\config.lua`, changer les valeurs par "True" or "False" dans `config`.
-- True = Activation de l'intérieur
-- False = Désactivation de l'intérieur
+## How to Use  
+In the file `cfx_gn_sandy_ipl_loader\config.lua`, change the values to "True" or "False" in the `config`.  
+- **True** = Activate the interior  
+- **False** = Deactivate the interior  
+
 
 ```lua
 config = {                      -- This config enables or disables Mlo IPL
@@ -24,16 +25,16 @@ config = {                      -- This config enables or disables Mlo IPL
 }
 ```
 
-## Que fait ce loader ?
+## What Does This Loader Do?  
 
-### Activation d'un MLO :
-- Chargement de l'IPL affichant le MLO en jeu
-- Chargement de l'IPL lod MLO
-- Chargement de l'occlusion adapté au MLO
+### Activating an MLO:  
+- Loads the IPL displaying the MLO in-game.  
+- Loads the IPL for the MLO’s LOD.  
+- Loads the occlusion tailored to the MLO.  
 
-### Désactivation du MLO
-- Déchargement du MLO (il n'es plus rendu en jeu)
-- Chargement de l'IPL "blocker" qui empechera les joueurs de rentrer dans une maison vide.
-- Chargement de l'occlusion entière du batiment (plus performante)
+### Deactivating the MLO:  
+- Unloads the MLO (it will no longer render in-game).  
+- Loads the "blocker" IPL, preventing players from entering an empty house.  
+- Loads the full building occlusion (more performance-efficient).  
 
-Grace à cela nous optimisons au maximum votre jeu celon votre configuration.
+With this, we maximize your game’s optimization based on your chosen configuration.  

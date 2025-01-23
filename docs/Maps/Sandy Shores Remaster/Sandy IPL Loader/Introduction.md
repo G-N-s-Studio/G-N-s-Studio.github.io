@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 ---
-# Introduction
+# Introduction  
 
-Grâce à ce script vous pourrez choisir quel MLO vous souhaité charger, et très simplement grâce à un simple, fichier config.
+With this script, you can choose which MLO you want to load, easily configured through a simple config file.  
 
-Vous pourrez aussi choisir d'affiché les props ou non dans les MLO des maisons (pièces aménagé ou vide), afin d'adapter cela à votre système de housing.
+You can also decide whether to display props in house MLOs (furnished or empty interiors), allowing you to adapt it to your housing system.  

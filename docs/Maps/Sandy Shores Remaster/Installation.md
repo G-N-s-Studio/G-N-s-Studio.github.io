@@ -1,35 +1,37 @@
 ---
 sidebar_position: 1
 ---
-# Installation
+# Installation  
 
-Sandy Shores à été developpé sur plusieurs année/mois et donc est divisé en plusieurs ressources.
-Ceci n'a pas d'impacte sur vos performances en jeu, et au contraire la façon d'on cela est divisé optimise le poids global des ressources G&N's Studio.
+Sandy Shores has been developed over several years/months and is divided into multiple resources.  
+This has no impact on your in-game performance; on the contrary, the way it is divided optimizes the overall weight of G&N's Studio resources.  
 
+---
 
-## Solution 1 - Installation facile
-1. [Télécharger ici le dossier "**Sandy Shores Remaster - Vol1**"](https://mega.nz/folder/CYYDwSaD#Bm3hMzSUJYAZKrCqyiYEUg)
-<img src="/img/mega_sandy_easyinstall.webp" alt="Map with numbers displayed" />
-2. Créer un dossier `[GnStudio]` dans votre dossier ressources
-3. Glissé/Déposé toutes les ressources télécharger vers le dossier `[GnStudio]`
-4. Démarré le dossier `[GnStudio]` dans votre `server.cfg`
+## Solution 1 - Easy Installation  
+
+1. [Download the "**Sandy Shores Remaster - Vol1**" folder here](https://mega.nz/folder/CYYDwSaD#Bm3hMzSUJYAZKrCqyiYEUg)  
+   <img src="/img/mega_sandy_easyinstall.webp" alt="Map with numbers displayed" />  
+2. Create a `[GnStudio]` folder in your resources directory.  
+3. Drag and drop all downloaded resources into the `[GnStudio]` folder.  
+4. Start the `[GnStudio]` folder in your `server.cfg`:  
+```yaml
+    # G&N's Studio - Maps
+    ensure [GnStudio]
+```
+
+## Solution 2 - Manual Installation  
+
+1. Download all listed resources from your Keymaster/CFX Portal.  
+2. Create a `[GnStudio]` folder in your resources directory.  
+3. Drag and drop all downloaded resources into the `[GnStudio]` folder.  
+4. Start the `[GnStudio]` folder in your `server.cfg`.  
+
 ```yaml
     #G&N's Studio - Maps
     ensure [GnStudio]
 ```
-💡Note : Nous maintiendrons à jours ces dossier
-
-## Solution 2 - Téléchargement manuelle
-
-1. Vous devrez télécharger toutes les ressources listé depuis votre Keymaster/Portal CFX.
-2. Créer un dossier `[GnStudio]` dans votre dossier ressources
-3. Glissé/Déposé toutes les ressources télécharger vers le dossier `[GnStudio]`
-4. Démarré le dossier `[GnStudio]` dans votre `server.cfg`
-```yaml
-    #G&N's Studio - Maps
-    ensure [GnStudio]
-```
-Ressources nécèssaire :
+**Required Resources:**  
 | Ressources Name | Doawnload Link |
  --- | --- |
  **Remaster Base Files** |  |  |
@@ -54,16 +56,15 @@ Ressources nécèssaire :
  cfx_gn_sheriff_dlc | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+%5BDLC%5D+Sheriff1) |  |
  cfx_gn_laundry_dlc | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=%09G%26N%27s+-+%5BDLC%5D+Laundry+Superlab) |  |
 
- ## Compatibilité
+## Compatibility  
 
- Vous n'avez pas à vous préoccuper de compatibilité, notre ressource [``cfx_gn_sandy_mapdata``](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/releases) est maintenue à jours pour que tout les mods et futur mods de G&N's Studio soit compatibile ensemble.
+You don’t need to worry about compatibility. Our resource [`cfx_gn_sandy_mapdata`](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/releases) is regularly updated to ensure that all current and future mods from G&N's Studio are compatible with each other.  
 
+---
 
+**Additional Compatibility:**  
 
-**Compatibilité supplémentaire :** 
+We are happy to offer additional compatibility with other mods, which we will list below:  
 
-Nous sommes libre de vous proposer quelques compatibilités supplémentaires avec d'autre mods, nous vous les listerons ci dessus :
-
-- Prompt Marina : [lien à venir]
-
-- Prompt Marina + Boat House : [lien à venir]
+- Prompt Marina: [link coming soon]  
+- Prompt Marina + Boat House: [link coming soon]

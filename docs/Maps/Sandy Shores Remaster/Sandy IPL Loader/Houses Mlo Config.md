@@ -3,15 +3,16 @@ sidebar_position: 3
 ---
 # Houses Mlo Config
 
-## Explication
-Si vous choississez d'activé les MLO des maisons, vous pouvez alors configurer l'aménagement des maisons, à savoir :
-- Maisons aménager avec tout les props (canapé, lits, table ...)
-- Maison vide (aucun props de posé pour que vos joueurs mappe eux même leurs pièces)
+## Explanation  
+If you choose to activate the house MLOs, you can configure the house interiors as follows:  
+- Fully furnished houses with all props (sofas, beds, tables, etc.)  
+- Empty houses (no props placed, allowing your players to map their own interiors)  
 
-## Comment sans servir
-Dans le fichier `cfx_gn_sandy_ipl_loader\config.lua`, changer les valeurs par "True" or "False" dans `entityset_config`.
-- True = Activation des props (pièces meublé)
-- False = Désactivation des props (pièces vide)
+## How to Use  
+In the file `cfx_gn_sandy_ipl_loader\config.lua`, change the values to "True" or "False" in `entityset_config`.  
+- **True** = Activate props (furnished interiors)  
+- **False** = Deactivate props (empty interiors)  
+
 
 ```lua
 entityset_config = {
