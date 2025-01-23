@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgn_docs=self.webpackChunkgn_docs||[]).push([[583],{8198:(s,n,c)=>{c.r(n),c.d(n,{default:()=>t});c(8774),c(4586),c(1107);var e=c(6347),r=c(4848);function t(){return(0,r.jsx)(e.rd,{to:"/docs/intro"})}}}]);
