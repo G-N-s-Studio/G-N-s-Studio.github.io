@@ -38,6 +38,7 @@ This has no impact on your in-game performance; on the contrary, the way it is d
  cfx_gn_sandy + cfx_gn_sandy_ipl_loader | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+Sandy+Shores+Pack1) |  |
   cfx_gn_sandy_mapdata | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+%5BBase%5D+-+Collection+%26+Data) or [Direct link on Github (recommended)](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/releases) |  |
  **Interior Ressources** |  |  |
+ cfx_gn_bc_firestation **(Blaine county firestation)** | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+Blaine+County+Fire+Department) |  |
  cfx_gn_sheriff_sandyshores | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+Sheriff+Dept.+%7C+Sandy+Shores) |  |
  cfx_gn_burgershot_sandy | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+BurgerShot+Sandy+Shores) |  |
  cfx_gn_sandy_motel | [Direct link on Keymaster](https://keymaster.fivem.net/asset-grants?search=G%26N%27s+-+Sandy+Shores+Motel) |  |
@@ -66,5 +67,7 @@ You don’t need to worry about compatibility. Our resource [`cfx_gn_sandy_mapda
 
 We are happy to offer additional compatibility with other mods, which we will list below:  
 
-- Prompt Marina: [link coming soon]  
-- Prompt Marina + Boat House: [link coming soon]
+- Prompt Marina: [Download from github](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/tree/Remaster_Release1%2BPrompt_Marina) 
+- Prompt Marina without bridge: [Download from github](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/tree/Remaster_Release1%2BPrompt_MarinaWithoutBridge) 
+- Prompt Marina + Boat House: [Download from github](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/tree/Remaster_Release1%2BPrompt_Marina_Boathouse)
+- Prompt Marina without bridge + Boat House: [Download from github](https://github.com/G-N-s-Studio/cfx_gn_sandy_mapdata/tree/Remaster_Release1%2BPrompt_MarinaWithoutBridge_Boathouse)
